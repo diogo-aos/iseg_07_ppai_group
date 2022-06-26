@@ -2,22 +2,22 @@
 
 
 ## tasks ex1 - MRI
-- modelo "normal"
+- modelo "normal" - train yolo
 - synth data
-- modelo synth data
-- modelo syn data + dados
+- modelo synth data - train yolo
+- modelo syn data + dados - train yolo
 - data
   - https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
 
 ![](ppai_group_01.jpeg)
 
 ## tasks ex2 - credit card approval
-- modelo de não anonamizados
-- anonamizar
-- modelo de anonamizados
+- modelo de não anonamizados - log reg
+- anonamizar - sync call
+- modelo de anonamizados - log reg
 - synth data de anonamizados
-- modelo synth data
-- modelo syn data + dados anonamizados
+- modelo synth data - log reg
+- modelo syn data + dados anonamizados - log reg
 - data:
   - https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
