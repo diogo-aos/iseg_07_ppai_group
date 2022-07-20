@@ -1,5 +1,9 @@
 # iseg_07_ppai_group
 
+- Google Drive group folder
+  - https://drive.google.com/drive/folders/1cD4X8e8InCirvHeAHGh65vIrEP9VvPPu
+- clear notebook outputs
+  - `jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace xx.ipynb`
 
 ## tasks ex1 - MRI
 - modelo "normal" - train yolo
