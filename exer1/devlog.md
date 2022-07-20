@@ -11,7 +11,8 @@ O número de canais das imagens do dataset é 3. Soluções:
   - Mudar o 1 para 3
   - Implementar código para inferir o número de canais
   - Usar apenas 1 dos canais
-  - Converter para preto e branco (e.g. adicionar uma transformação na cadeia -> transformers.Grayscale())
+  - Converter para preto e branco (e.g. adicionar uma transformação
+na cadeia -> transformers.Grayscale())
 
 2) Estas redes não se dão bem com um batch size pequeno, 
 nomeadamente de 1. Eu estava a ter problemas com isto, e 
@@ -20,3 +21,12 @@ regular (adicionar argumento drop_last=True).
 
 Considerations about batch size
  - https://stackoverflow.com/questions/66133492/pytorch-training-with-batches-of-different-lenghts
+
+## 2022-07-20
+
+Can't adapt the evaluation notebook for the MR dataset.
+Original notebook was creating a custom class for a Torch Dataset and
+then creating a Torch DataLoader from that dataset.
+I changed the function for receiving a DataLoader directly but still
+the result is nan.
+What is wrong??????
