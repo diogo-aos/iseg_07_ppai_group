@@ -1,2 +1,5 @@
+numpy==1.22
+scipy==1.7
 jupyterlab
 sdv
+pandas
