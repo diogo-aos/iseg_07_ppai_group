@@ -1,12 +1,28 @@
-# iseg_07_ppai_group
+# ISEG | AAIML | Privacy Preserving Artificial Intelligence Project
 
-- Google Drive group folder
-  - https://drive.google.com/drive/folders/1cD4X8e8InCirvHeAHGh65vIrEP9VvPPu
-- clear notebook outputs
-  - `jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace xx.ipynb`
+This repository contains the work developed within the project for the Privacy Preserving Artificial Intelligence course.
+This project entails work on 2 different subprojects:
+
+- Alzheimer's disease classification (exercise 1)
+- Mortgage loan defaults prediction (exercise 2)
+
+Project file structure:
+
+- `exer1` folder contains code for the Alzheimer's disease classification:
+  - `rm_synth.ipynb` contains code for the synthetic data models.
+  - `inception_score.ipynb` is the notebook used for evaluating synthetic data.
+  - `exer1.ipynb` goes throudh the classification model development.
+- `exer2` folder covers the work developed for the Mortgage loan defaults prediction:
+  - `01_data_prep.ipynb` has the process used for merging the original dataset.
+  - `final` folder has the notebooks used for the final results:
+    - `dataset_anonymized_DB_INC.deid` is the ARX project file containing the anonamization process.
+    - `03_synth.ipynb` documents and executes the process of generating synthetic tabular data for mortgage loans.
+    - `02_CTGAN_CreditModel.ipynb` has all the work related with the 3 models developed.
+
+
 
 ## Tasks
-Exercise 1 -> Diogo
+Exercise 1
  1.a) Dados sintéticos
    1.a.i) Pipeline dados sintéticos [V]
    1.a.ii) Treinar modelos [V]
@@ -55,6 +71,10 @@ Exercise 2
 
 ## Sources
 
+- Google Drive group folder
+  - https://drive.google.com/drive/folders/1cD4X8e8InCirvHeAHGh65vIrEP9VvPPu
+- clear notebook outputs
+  - `jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace xx.ipynb`
 - Exer 1
   - Transfer Learning
     - https://debuggercafe.com/brain-mri-classification-using-pytorch-efficientnetb0/
