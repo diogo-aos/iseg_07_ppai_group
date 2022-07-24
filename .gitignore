@@ -1,6 +1,8 @@
 venv
 exer1/data/
 exer2/data/
-**ipynb_checkpoints
+*ipynb_checkpoints
+exer1/.ipynb_checkpoints/
 *.pt
 *.pkl
+*.xlsx
